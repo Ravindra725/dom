@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(27, 21, 10);
+}
+.btn{
+    padding: 20px;
+    background-color: aliceblue ;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.one{
+    position: absolute;
+    top: 10px;
+    left: 78%;
+    color: white;
+}
+.two{
+    color: white;
+    margin-left: 35%;
+    margin-top: 30px;
+    font-size: 45px;
+}
+.container
+{
+    background-color: white;
+    height: 120px;
+    width: 140px;
+    margin-left: 43%;
+    margin-top: 20px;
+    z-index: 1;
+}
+.container1
+{
+    background-color: white;
+    height: 8px;
+    width: 100%;
+    position: absolute;
+    top: 230px;
+    z-index: -1;
+}
+.one1
+{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 55px;
+}
+.ses{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-top: 100px;
+    align-items: center;
+}
+.inp
+{
+    background: none;
+    color: white;
+    border: 5px solid white;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    font-size: 3rem;
+    /* margin-top: 50px;
+    margin-left: 100px; */
+}
+.btn1{
+    height: 60px;
+    width: 100px;
+    padding: 10px;
+    background-color: aliceblue ;
+    /* margin-top: 10px; */
+    /* margin-left: 20px; */
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.right
+{
+    position: absolute;
+    top: 400px;
+    left: 700px;
+}
+.para
+{
+    font-size: 40px;
+    color: white;
+}
+.para1
+{
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+}
+.para2
+{
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+}

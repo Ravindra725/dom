@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .flex-item{
+            width: 200px;
+            height: 200px;
+            background-color: chocolate;
+            border: 5px solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>Q1. Write the code to access element which is having id as "text"</h1>
+    <p style="font-size: 30px;">ans:- documen.getElementById("text")</p>
+    <h1>Q2. Write the code to access element which is having tag as "h1"</h1>
+    <p style="font-size: 30px;">ans:- documen.getElementByTagName("h1")</p>
+    <h1>Q3. Write the code to access element which is having class as "box"</h1>
+    <p style="font-size: 30px;">ans:- documen.getElementByClassName("box")</p>
+    <h1>Q4. Change the heading from ""Hello"" to ""Hello World"" using DOM functions"</h1>
+    <p style="font-size: 30px;">ans:- </p>
+    <h1 style="color: blueviolet;">hello</h1>
+    <h1>Q5. Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content should be changed to "Welcome to Elevation academy"</h1>
+    <p style="font-size: 30px;">ans:- </p>
+    <h2 style="color: blueviolet;">Hello World</h2>
+    <button onclick="replace()" style="color: rgb(161, 0, 190);">Replace Text</button>
+    <h1>Q6. hello <br>
+     Add one style attribute and give text color as red and id attribute and give the id value as ""heading"" in the above given h1 tag using DOM functions"
+    </h1>
+    <p style="font-size: 30px;">ans:- </p>
+    <h1 id="heading">hello</h1>
+    <h1>Q7. Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction.</h1>
+    <p style="font-size: 30px;">ans:- </p>
+    <div class="container">
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+    </div>
+    <button onclick="flex1()">Change Flex direction</button>
+    <h1>Q9.</h1>
+    <p style="font-size: 30px;">ans:- </p>
+    <a href="./index1.html" target="_blank">Guess Game Play</a>
+
+    <script src="./script.js"></script>
+</body>
+</html>
