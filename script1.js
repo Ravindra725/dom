@@ -6,7 +6,7 @@ function reset(){
     document.querySelector(".para").innerHTML = "Start guessing...";
         document.querySelector(".chances").textContent = initialValue
         highscore = initialValue
-        document.querySelector(".highscore").textContent = 0;
+        document.querySelector(".highscore").textContent = initialValue;
         document.querySelector(".btn1").style.visibility = ""
         document.querySelector(".one1").textContent = "?"
         document.body.style.backgroundColor = "rgb(54, 50, 43)"
